@@ -366,7 +366,7 @@ const bds = new InstallItem({
     url: BDS_LINK,
     targetPath: bdsPath,
     key: 'bdsVersion',
-    keyFile: 'bedrock_server.exe',
+    keyFile: 'bedrock_server',
     skipExists: true,
     async confirm() {
         console.log(`It will download and install Bedrock Dedicated Server to '${path.resolve(bdsPath)}'`);
