@@ -16,7 +16,7 @@ if (BDSX_YES === 'skip') {
 
 const sep = path.sep;
 
-const BDS_LINK = `https://minecraft.azureedge.net/bin-win/bedrock-server-${BDS_VERSION}.zip`;
+const BDS_LINK = `https://minecraft.azureedge.net/bin-linux/bedrock-server-${BDS_VERSION}.zip`;
 const BDSX_CORE_LINK = `https://github.com/bdsx/bdsx-core/releases/download/${BDSX_CORE_VERSION}/bdsx-core-${BDSX_CORE_VERSION}.zip`;
 
 let agreeOption = false;
